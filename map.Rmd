@@ -1,0 +1,791 @@
+---
+title: "Shiny Dashboard"
+resource_files:
+- shiny_dashboard.Rmd
+- Data2
+runtime: shiny
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    source: embed
+    theme: cosmo
+    vertical_layout: fill
+---
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(shiny)
+library(plotly)
+library(leaflet)
+library(readxl)
+library(backports)
+
+##addl packages
+library(leafpop)
+library(sp)
+library(rgdal)
+library(lubridate)
+library(raster)
+library(htmlwidgets)
+
+#setwd("C:/Users/j.ponmattam/Documents/Capstone_2021_/shinyappMap_and_Data_Joberg_CT_jamie/")
+```
+
+```{r global, include=FALSE}
+####################### Air pollution data for map read-in ######################
+## daily CSVs
+
+ca.df <- read.csv("Data2/data_files/capetown_daily_NoNA.csv")
+joberg.df <- read.csv("Data2/data_files/johannesburg_daily_NoNA.csv")
+durban.df <- read.csv("Data2/data_files/Durban_daily_NoNA.csv")
+tshwane.df <- read.csv("Data2/data_files/tshwane_daily_NoNA.csv")
+ekur.df <- read.csv("Data2/data_files/ekur_daily_noNA.csv")
+
+abidjan.df <- read.csv("Data2/data_files/abidjan_daily_noNA.csv")
+accra.df <- read.csv("Data2/data_files/accra_daily_noNA.csv")
+addis.df <- read.csv("Data2/data_files/addis_daily.csv")
+freetown.df <- read.csv("Data2/data_files/freetown_daily.csv")
+lagos.df <- read.csv("Data2/data_files/lagos_daily.csv")
+nairobi.df <- read.csv("Data2/data_files/Nairobi.csv")
+nairobi.df <- nairobi.df[c(1:10, 16)]
+daressalaam.df <- read.csv("Data2/data_files/daressalaam_daily.csv")
+daressalaam.df <- daressalaam.df[c(1:10, 16)]
+
+
+joberg.ct2 <- rbind(ca.df, joberg.df, durban.df, tshwane.df, ekur.df, abidjan.df, accra.df, freetown.df, lagos.df, addis.df, nairobi.df, daressalaam.df)
+
+## open source data
+### open AQ
+openAQ.SA <- read.csv("Data2/data_files/openAQ_ct_tshwane_daily.csv")
+## open.Africa
+openAfrica.SA <- read.csv("Data2/data_files/open_africa_durban_daily.csv")
+
+joberg.ct <- rbind(joberg.ct2, openAQ.SA, openAfrica.SA)
+
+dakar.df <- read.csv("Data2/data_files/Dakar.csv")
+dakar.df <- dakar.df %>%
+  mutate(station_area=NA_character_)
+
+data.df <- rbind(joberg.ct, dakar.df)
+
+############# ^ finished calling/binding data #####
+data.df$date <- ymd(data.df$date) ## makes sure that dates are read as dates
+
+data.df$lat <- round(data.df$lat, 5)
+data.df$long <- round(data.df$long, 5)
+
+############ Ozone
+#ozone.q8.df <- read.csv("E:/Columbia/Capstone/SA Data/Final_city_csvs/SAozone_joberg_clean.csv") ###trial data
+ozone.q8.df <- read.csv("Data2/data_files/SA_ozone.csv")
+
+################## Loading MAPS ###########################
+## Boundary Map read-in
+boundary.files <- list.files("Data2/13_cities/", pattern = "*.geojson", full.names = TRUE)
+
+## raster maps files list
+#### 2016
+raster.files.2016<-list.files("Data2/2016/", pattern="*_buffered_raster.tif", full.names = TRUE)
+
+## 2017
+raster.files.2017<-list.files("Data2/2017/", pattern="*_buffered_raster.tif", full.names = TRUE)
+
+## 2018
+raster.files.2018<-list.files("Data2/2018/", pattern="*_buffered_raster.tif", full.names = TRUE)
+
+
+################### read in standards ###################
+standards.df <- read.csv("Data2/standards_plotly.csv")
+
+```
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+```{r, inputs}
+
+######### select pollutant
+selectInput("city_choice", 
+            "City Choice", 
+            choices = c("Abidjan", "Accra", "Addis Ababa", "Cape Town","Dakar", "Dar es Salaam", "eThekwini (Durban)","Ekurhuleni", "Freetown", "Johannesburg", "Lagos", "Nairobi", "Tshwane"),
+            selected = "Abidjan")
+
+############ select pollutant
+selectInput("pollutant_choice", 
+            "Pollutant Choice",
+            choices = c("PM2.5", "Ozone", "SO2", "NO2", "PM10"),
+            selected = "PM2.5")
+###################
+
+city_choice <- data.df %>% pull(city) %>% unique()
+pollutant_choice <- data.df %>% pull(pollutant) %>% unique()
+
+
+######### choose raster overlay
+
+    ### render text as html
+renderUI({   
+  HTML("Overlay PM<sub>2.5</sub> remote-sensing file?")
+  })
+
+checkboxInput("yes.raster", "Yes", FALSE)
+
+
+############ download button #########
+renderUI({
+  if (input$pollutant_choice=="Ozone") {
+    downloadButton("dlData.Ozone", HTML("Download 8-hour <br>Average Data"), style="width:100%;background-color:#59788E")
+  } else{
+    downloadButton("dlData", "Download Daily Data", style="width:100%;background-color:#59788E")}
+  })
+
+## subset file
+
+df.download<-reactive({
+  data.df %>%
+    filter(city ==input$city_choice,
+           pollutant== input$pollutant_choice)
+  })
+
+output$dlData<- downloadHandler(
+  filename = function() {"data.csv"},
+  
+  content = function(file) {
+     write.csv(df.download(), file, row.names = FALSE)
+  })
+
+
+################## ozone downloads
+df.download<-reactive({
+  ozone.q8.df %>%
+    filter(city ==input$city_choice) %>%
+    dplyr::select(-date.time)
+  })
+
+output$dlData.Ozone<- downloadHandler(
+  filename = function() {"data.csv"},
+
+  content = function(file) {
+     write.csv(df.download(), file, row.names = FALSE)
+  })
+
+###########
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Leaflet for Air Quality
+
+
+```{r}
+renderLeaflet({
+
+################ set city and pollutant choices:
+    city.choice <- input$city_choice
+    pollutant.choice <- input$pollutant_choice
+  
+### 1. choose formatted options for pollutants and units
+### 2. Get dataframe(df) for map popup labels
+### 3. function to reverse legend colour and order
+### 4. Start if...else loop:
+###       a. IF: there are no values in labels dataframe (2.) (means that there is no pollutant data), then choose map with only boundary (no stations)
+###       b. ELSE IF: selected pollutant is ozone    
+###       c. ELSE: there are >0 values for labels df (2.) (there is pollutant data), choose map with labelled station points
+
+############# 1. formatted choices: pollutant and units ###################
+##### pollutant
+      if (pollutant.choice=="PM2.5"){
+        pollutant.formatted <- gsub("2.5", "<sub>2.5</sub>", pollutant.choice)
+      } else if (pollutant.choice %in% c("SO2", "NO2")){
+        pollutant.formatted <- gsub("2", "<sub>2</sub>", pollutant.choice)
+      } else if (pollutant.choice=="PM10"){
+        pollutant.formatted <- gsub("10", "<sub>10</sub>",pollutant.choice)
+      } else if (pollutant.choice=="Ozone"){
+        pollutant.formatted <- "Ozone"
+      }
+####### units
+  units <- (data.df  %>%
+              filter(city == city.choice,
+                     pollutant== pollutant.choice) %>%
+              group_by(unit) %>% 
+              count())[1,1]
+  
+  if(is.na(units)){
+    units.formatted <- NA_character_
+  } else if (units=="ug/m3"){
+    units.formatted <-"ug/m<sup>3</sup>"
+  } else if (units=="ppb") {
+    units.formatted <-"ppb"
+  }
+  
+#################################################
+
+################### 2. label within Popup text ###################
+label<- data.df %>%
+        filter(city == city.choice, 
+               pollutant== pollutant.choice) %>% 
+        group_by(city, station, pollutant, obs.period, datasource, lat, long, unit, station_area) %>%  ###need to group by each of these if there are multiple stations
+        summarise(period_average = round(mean(concentration, na.rm=TRUE), digits=2)) %>%
+        mutate(period_average = if_else(is.nan(period_average), NA_real_, period_average),
+               label_txt = str_c("<br>&nbsp;&nbsp;<b>City: </b>", city,
+                                 "<br>&nbsp;&nbsp;<b>Station: </b>", station,
+                                 "<br>&nbsp;&nbsp;<b>Pollutant: </b>", pollutant.formatted,
+                                 "<br>&nbsp;&nbsp;<b>Daily Period Average: </b>", if_else(is.nan(period_average)|is.na(period_average), "No Data", paste0(period_average, " ", units.formatted)),
+                                 "<br>&nbsp;&nbsp;<b>Observation period: </b>", if_else(is.na(obs.period), "No Observations", paste0(obs.period)),
+                                 "<br>&nbsp;&nbsp;<b>Data source: </b>", datasource,
+                                 "<br>&nbsp;&nbsp;<b>Station Area: </b>", if_else(is.na(station_area), "No Data", paste0(station_area)), "<br><br>"))
+
+#################### 
+
+############## 3. function to reverse legend colour and order:  ####
+   addLegend_decreasing <- function (map, position = c("topright", "bottomright", "bottomleft","topleft"),
+                                  pal, values, na.label = "NA", bins = 7, colors,
+                                  opacity = 0.5, labels = NULL, labFormat = labelFormat(),
+                                  title = NULL, className = "info legend", layerId = NULL,
+                                  group = NULL, data = getMapData(map), decreasing = FALSE) {
+
+        position <- match.arg(position)
+        type <- "unknown"
+        na.color <- NULL
+        extra <- NULL
+        if (!missing(pal)) {
+            if (!missing(colors))
+                stop("You must provide either 'pal' or 'colors' (not both)")
+            if (missing(title) && inherits(values, "formula"))
+                title <- deparse(values[[2]])
+            values <- evalFormula(values, data)
+            type <- attr(pal, "colorType", exact = TRUE)
+            args <- attr(pal, "colorArgs", exact = TRUE)
+            na.color <- args$na.color
+            if (!is.null(na.color) && col2rgb(na.color, alpha = TRUE)[[4]] ==
+                    0) {
+                na.color <- NULL
+            }
+            if (type != "numeric" && !missing(bins))
+                warning("'bins' is ignored because the palette type is not numeric")
+            if (type == "numeric") {
+                cuts <- if (length(bins) == 1)
+                    pretty(values, bins)
+                else bins
+                if (length(bins) > 2)
+                    if (!all(abs(diff(bins, differences = 2)) <=
+                                     sqrt(.Machine$double.eps)))
+                        stop("The vector of breaks 'bins' must be equally spaced")
+                n <- length(cuts)
+                r <- range(values, na.rm = TRUE)
+                cuts <- cuts[cuts >= r[1] & cuts <= r[2]]
+                n <- length(cuts)
+                p <- (cuts - r[1])/(r[2] - r[1])
+                extra <- list(p_1 = p[1], p_n = p[n])
+                p <- c("", paste0(100 * p, "%"), "")
+                if (decreasing == TRUE){
+                    colors <- pal(rev(c(r[1], cuts, r[2])))
+                    labels <- rev(labFormat(type = "numeric", cuts))
+                }else{
+                    colors <- pal(c(r[1], cuts, r[2]))
+                    labels <- rev(labFormat(type = "numeric", cuts))
+                }
+                colors <- paste(colors, p, sep = " ", collapse = ", ")
+            }
+            else stop("Palette function not supported")
+            if (!any(is.na(values)))
+                na.color <- NULL
+        }
+        else {
+            if (length(colors) != length(labels))
+                stop("'colors' and 'labels' must be of the same length")
+        }
+        legend <- list(colors = I(unname(colors)), labels = I(unname(labels)),
+                                     na_color = na.color, na_label = na.label, opacity = opacity,
+                                     position = position, type = type, title = title, extra = extra,
+                                     layerId = layerId, className = className, group = group)
+        invokeMethod(map, data, "addLegend", legend)
+        }
+##########################################################
+#################### 4. If...else loop ####################
+
+############ a. IF: no data available for city for some pollutants  ###
+  if(length(label$city)==0){
+    map.choice <- city.choice
+
+  if(grepl("Durban", map.choice, fixed = TRUE)) map.choice ="Durban"
+  
+  file.num <- grep(map.choice, boundary.files, ignore.case = TRUE)
+  
+  map <- rgdal::readOGR(boundary.files[file.num], require_geomType = "wkbPolygon")
+  
+      leaflet() %>%
+        addProviderTiles(providers$CartoDB.Positron) %>%
+        addPolygons(data=map, stroke = FALSE, smoothFactor = 0.3, fillColor = "purple", fillOpacity = 0.25, layerId = "base") %>%
+        addControl(
+          HTML(paste0("No ", pollutant.formatted," Data")),
+          position="topright")
+  } 
+############ b. else if: ozone is selected ###############
+   else if(length(label$city)>0 & input$pollutant_choice=="Ozone") {
+     
+     ################# Ozone Map ###########
+
+      ozone.q8.label<-  ozone.q8.df %>%
+            filter(city == city.choice,
+                   !is.na(concentration)) %>%
+        group_by(city, station, pollutant, obs.period, datasource, lat, long, unit, station_area) %>%  ###need to group by each of these if there are multiple stations
+        summarise(period_average = round(mean(concentration, na.rm=TRUE), digits=2)) %>%
+        mutate(period_average = if_else(is.nan(period_average), NA_real_, period_average),
+               label_txt = str_c("<br>&nbsp;&nbsp;<b>City: </b>", city,
+                                 "<br>&nbsp;&nbsp;<b>Station: </b>", station,
+                                 "<br>&nbsp;&nbsp;<b>Pollutant: </b>", pollutant.formatted,
+                                 "<br>&nbsp;&nbsp;<b>8-hr Average: </b>", if_else(is.nan(period_average)|is.na(period_average), "No Data", paste0(period_average, " ", units.formatted)),
+                                 "<br>&nbsp;&nbsp;<b>Observation period: </b>", if_else(is.na(obs.period), "No Observations", paste0(obs.period)),
+                                 "<br>&nbsp;&nbsp;<b>Data source: </b>", datasource,
+                                 "<br>&nbsp;&nbsp;<b>Station Area: </b>", if_else(is.na(station_area), "No Data", paste0(station_area)), "<br><br>"))
+
+
+  ozone.q8.df.X <- ozone.q8.df %>%
+    filter(city== city.choice) %>% #,year(date)>=2016) %>%
+    group_by(station, year(date), month(date), pollutant, unit, lat, long) %>%
+    summarise(concentration=mean(concentration, na.rm=TRUE)) %>%
+  mutate(concentration=if_else(is.nan(concentration), NA_real_, concentration),
+         year.month = paste0(`year(date)`, "-", `month(date)`, "-01"),  ### fake date
+         year.month = ymd(year.month)) %>%  ##make date a Date
+  filter(!is.na(concentration)) %>%
+    ungroup()
+  coordinates(ozone.q8.df.X) <- ~long+lat  ### need lat/long to match with the stations
+  
+  p.list<-list()
+  
+  for (var in unique(ozone.q8.df.X$station)) {
+    
+    p <- ggplot(ozone.q8.df.X@data[ozone.q8.df.X$station==var,], aes(x=year.month, y= concentration, colour=station)) +
+      geom_point() +
+      geom_line(aes(group=1), colour="grey31") +
+      #geom_smooth(color="grey", se=F)+
+      theme_minimal() +
+      scale_x_date(date_labels = "%b-%Y")+
+      ggtitle(var) +
+      theme(panel.grid = element_blank(),
+            legend.position = "none",
+            plot.title = element_text(hjust = 0.5)) +
+      ylab(str_c(paste("Concentration (ppb)"))) +
+      xlab("Date")
+    p.list[[var]] <- p        ### adds plots to the list where each plot is named by station
+  }
+  
+  num.points <- colorNumeric(palett="BuGn",
+                             domain=c(ozone.q8.label$period_average-0.5, ozone.q8.label$period_average+0.5), na.color = "grey")
+  
+ map.choice <- city.choice
+
+  if(grepl("Durban", map.choice, fixed = TRUE)) map.choice ="Durban"
+  
+  file.num <- grep(map.choice, boundary.files, ignore.case = TRUE)
+  
+  map <- rgdal::readOGR(boundary.files[file.num], require_geomType = "wkbPolygon")
+  
+
+          leaflet() %>%
+            addProviderTiles(providers$CartoDB.Positron) %>%
+            addPolygons(data=map, stroke = FALSE, smoothFactor = 0.3, fillColor = "purple", fillOpacity = 0.25) %>%
+            addCircleMarkers(data=ozone.q8.label,
+                             popup = ifelse(unique(ozone.q8.label$station) %in% names(p.list),
+                                      str_c(ozone.q8.label$label_txt, popupGraph(p.list[ozone.q8.label$station], width = 300, height = 300)),
+                                      str_c(ozone.q8.label$label_txt, "NO DATA AVAILABLE")),
+                             radius = 10,
+                             popupOptions = popupOptions(closeOnClick = TRUE),
+                             color = ~num.points(period_average),
+                             fillOpacity = 0.7,
+                             label = ozone.q8.label$station) %>%
+            addLegend_decreasing(data= ozone.q8.label, "bottomright", pal = num.points, values = c(ozone.q8.label$period_average-0.5, ozone.q8.label$period_average+0.5),
+                      title = paste0("Pollutant (", units.formatted, ")"), opacity = 0.5, decreasing = TRUE)
+            } 
+################## c. all other cases where pollutant data exists #############
+  else {
+
+     ##################### list of per-station-pollutant ggplots ############
+     
+  x<- data.df %>%
+    filter(city == city.choice,
+           pollutant == pollutant.choice,
+           !is.na(concentration)) %>%
+    group_by(station, year(date), month(date), pollutant, unit, lat, long) %>%
+    summarise(concentration=mean(concentration, na.rm=TRUE)) %>%
+    mutate(concentration=if_else(is.nan(concentration), NA_real_, concentration),
+          year.month = paste0(`year(date)`, "-", `month(date)`, "-01"),
+          year.month = ymd(year.month)) %>%### fake date
+    ungroup()
+
+  coordinates(x) <- ~long+lat  ### need lat/long to match with the stations
+
+
+  p.list<-list()
+  ### y-axis label choice for ggplot
+  if (pollutant.choice %in% c("PM2.5", "PM10")) {
+    label.y.axis = expression(Concentration~(ug/m^3))
+  } else{
+    label.y.axis = "Concentration (ppb)"
+  }
+  
+  for (var in unique(x$station)) {
+    p <- ggplot(x@data[x$station==var,], aes(x=year.month, y= concentration, colour=station)) +
+      geom_point() +
+      geom_line(colour="#A9A9A9") +
+      theme_minimal() +
+      scale_x_date(date_labels = "%b-%Y")+
+      ggtitle(var) +
+      theme(panel.grid = element_blank(),
+            legend.position = "none",
+            plot.title = element_text(hjust = 0.5)) +
+      ylab(label.y.axis) +
+      xlab("Date")
+    p.list[[var]] <- p        ### adds plots to the list where each plot is named by station
+  }
+
+######################## MAPS #####################
+
+  ######################## select boundary map ###############
+  map.choice <- city.choice
+  if(grepl("Durban", map.choice, fixed = TRUE)) map.choice ="Durban"
+  
+  file.num <- grep(map.choice, boundary.files, ignore.case = TRUE)
+  
+  map <- rgdal::readOGR(boundary.files[file.num], require_geomType = "wkbPolygon")
+  
+  ########################## select raster map #################### 
+   file.num16 <- grep(map.choice, raster.files.2016, ignore.case = TRUE)
+   file.num17 <- grep(map.choice, raster.files.2017, ignore.case = TRUE)
+   file.num18 <- grep(map.choice, raster.files.2018, ignore.case = TRUE)
+
+   raster.map.16 <- raster(raster.files.2016[file.num16])
+   raster.map.17 <- raster(raster.files.2017[file.num17])
+   raster.map.18 <- raster(raster.files.2018[file.num18])
+
+
+  ########################### legend colours #############
+  num.points <- colorNumeric(palett="BuGn",
+                             domain=c(label$period_average-0.5, label$period_average+0.5), na.color = "grey")
+
+  min.raster.val <- min(c(summary(raster.map.16)[1], summary(raster.map.17)[1], summary(raster.map.18)[1]))
+  max.raster.val <- max(c(summary(raster.map.16)[5], summary(raster.map.17)[5], summary(raster.map.18)[5]))
+
+  num.raster <- colorNumeric(palette = "Spectral",
+                             c(min.raster.val, max.raster.val), na.color = "transparent")
+  ########### non-Raster Map ###########
+  p0<-leaflet() %>%
+           addProviderTiles(providers$CartoDB.Positron) %>%
+           addPolygons(data=map, stroke = FALSE, smoothFactor = 0.3, fillColor = "purple", fillOpacity = 0.25, layerId = "base") %>%
+          addCircleMarkers(data=label,
+                          popup = ifelse(unique(label$station) %in% names(p.list),
+                                   str_c(label$label_txt, popupGraph(p.list[label$station], width = 400, height = 300)),
+                                   str_c(label$label_txt, "NO DATA AVAILABLE")),
+                           radius = 10,
+                           popupOptions = popupOptions(closeOnClick = TRUE),
+                            color = ~num.points(label$period_average),
+                           fillOpacity = 0.7,
+                           label =label$station) %>%
+           addLegend_decreasing(data= label, "bottomright", pal = num.points, values = c(label$period_average-0.5, label$period_average+0.5), title = paste0("Pollutant (", units.formatted, ")"), opacity = 0.5, decreasing = TRUE)
+
+
+  
+  ########## Raster Map ###########
+       p1<- leaflet() %>%
+             addProviderTiles(providers$CartoDB.Positron) %>%
+             addPolygons(data=map, stroke = TRUE, smoothFactor = 0.3, color = "black", weight = 2, opacity = 1, fillOpacity =0, group = "Raster") %>%
+         addCircleMarkers(data=label,
+                         popup = ifelse(unique(label$station) %in% names(p.list),
+                                      str_c(label$label_txt, popupGraph(p.list[label$station], width = 400, height = 300)),
+                                      str_c(label$label_txt, "NO DATA AVAILABLE")),
+                         radius = 10,
+                         popupOptions = popupOptions(closeOnClick = TRUE),
+                         color = ~num.points(period_average),
+                         fillOpacity = 0.7,
+                         label = label$station) %>%
+             addLegend_decreasing(data= label, "bottomright", pal = num.points, values = c(label$period_average-0.5, label$period_average+0.5),
+                       title = paste0("Pollutant (", units.formatted, ")"), opacity = 0.5, decreasing = TRUE) %>%
+               addLegend_decreasing(data= label, "bottomleft", pal = num.raster, values = c(min.raster.val, max.raster.val),
+                    title = "Remote-sensing derived <br> air pollution level (ug/m<sup>3</sup>)", opacity = 0.5, decreasing = TRUE, group="Raster") %>%
+              # # # group 2016:
+               addRasterImage(raster.map.16, colors=num.raster, opacity=0.5, group = "2016") %>%
+              # # group 2017:
+               addRasterImage(raster.map.17, colors=num.raster, opacity=0.5, group = "2017") %>%
+              #     ## group 2018:
+               addRasterImage(raster.map.18, colors=num.raster, opacity=0.5, group = "2018") %>%
+              #    ## layers control
+                addLayersControl(baseGroups = c("2016", "2017", "2018"),
+                                 options = layersControlOptions(collapsed = FALSE)) %>%
+                 ### add layer control title:
+               htmlwidgets::onRender(
+               "function() {
+                   $('.leaflet-control-layers-list').prepend('<label style=\"text-align:center\">Select Year:</label>');
+               }")
+
+  # ##### Choose p1 map if raster is available (PM2.5 data only);otherwise choose p0 map ####
+
+   if(pollutant.choice=="PM2.5" & input$yes.raster){
+   p1
+ } else{
+   p0
+  }
+            
+  }
+})
+
+```
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+
+### Monthly Trend and Seasonality
+
+```{r}
+uiOutput("dynamic")
+
+output$dynamic <- renderUI({
+  city.choice <- input$city_choice
+  pollutant.choice <- input$pollutant_choice
+ 
+  df2 <- data.df %>%
+    filter(city ==city.choice,
+           pollutant== pollutant.choice)
+  
+  if (count(df2)==0){
+    uiOutput("text", style="color: red;font-size=300;text-align: center; padding: 100px")
+  } else if(pollutant.choice=="Ozone" & !(count(df2)==0)){
+    plotlyOutput("plot1Ozone")
+  } else {
+    plotlyOutput("plot1")
+  }
+  
+})
+
+output$plot1 <- renderPlotly ({
+  ####### formatted choices: pollutant and units
+  ### pollutant
+  city.choice <- input$city_choice
+  pollutant.choice <- input$pollutant_choice
+  
+      if (pollutant.choice=="PM2.5"){
+        pollutant.formatted <- gsub("2.5", "<sub>2.5</sub>", pollutant.choice)
+      } else if (pollutant.choice %in% c("SO2", "NO2")){
+        pollutant.formatted <- gsub("2", "<sub>2.5</sub>", pollutant.choice)
+      } else if (pollutant.choice=="PM10"){
+        pollutant.formatted <- gsub("10", "<sub>10</sub>",pollutant.choice)
+      } else if (pollutant.choice=="Ozone"){
+        pollutant.formatted <- "Ozone"
+        }
+  ### units
+  units <- (data.df  %>%
+              filter(city == city.choice,
+                     pollutant== pollutant.choice) %>%
+              group_by(unit) %>% 
+              count())[1,1]
+  
+  if(is.na(units)){
+    units.formatted <- NA_character_
+  } else if (units=="ug/m3"){
+    units.formatted <-"ug/m<sup>3</sup>"
+  } else if(units=="ppb") {
+    units.formatted <-"ppb"
+  }
+
+
+#############################################
+Data2 <- data.df %>%
+  filter(city == city.choice,
+         pollutant== pollutant.choice) %>%
+group_by(year(date), month(date), pollutant, unit) %>%
+  summarise(concentration=mean(concentration, na.rm=TRUE)) %>%
+  mutate(
+    month=month.abb[`month(date)`],
+    year=as.factor(`year(date)`)) %>%
+  mutate(month_date = paste0(`year(date)`, "-", `month(date)`, "-01"),
+         month_date = ymd(month_date)) %>%
+  filter(!is.nan(concentration)) %>%
+  ungroup()
+
+
+############ Select standards
+
+  plot.label.city <- standards.df %>%
+  filter(city== city.choice,
+         pollutant== pollutant.choice)
+
+if (is.na(units)){
+  plot.label.WHO <- standards.df[FALSE,]
+} else if (units=="ppb"){
+  plot.label.WHO <- standards.df %>%
+      filter(city=="WHO",
+             pollutant== pollutant.choice,
+             grepl("ppb", label))
+} else{
+    plot.label.WHO<-standards.df %>%
+      filter(city=="WHO",
+             pollutant== pollutant.choice,
+             !grepl("ppb", label))
+  }
+
+
+#################
+#plot if no standard is available
+ p0<-Data2%>%
+  plot_ly(x=~month_date, y=~concentration,
+          type="scatter",
+          mode="markers",
+          text = ~str_c("Year: ", year, "<br>Month: ", month.name[`month(date)`], "<br>",pollutant.formatted, ": ", round(concentration, 3), " ", units.formatted),
+          hoverinfo="text", showlegend=F) %>%
+     add_trace(y=~plot.label.WHO$standard, name=plot.label.WHO$label, mode="lines", line=list(color="red", dash="dash"), text=plot.label.WHO$label, hoverinfo="text")  %>%
+   layout(xaxis=list(title=""),
+          yaxis=list(title=paste0(pollutant.formatted, " (", units.formatted, ")")))
+
+# 
+# ### plot if line is available
+ p1<-Data2%>%
+   plot_ly(x=~month_date, y=~concentration,
+          type="scatter",
+          mode="markers",
+          text = ~str_c("Year: ", year, "<br>Month: ", month.name[`month(date)`], "<br>",pollutant.formatted, ": ", round(concentration, 3), " ", units.formatted),
+          hoverinfo="text", showlegend=F) %>%
+      add_trace(y=~plot.label.WHO$standard, name=plot.label.WHO$label, mode="lines", line=list(color="red", dash="dash"), text=plot.label.WHO$label, hoverinfo="text") %>%
+      add_trace(y=~plot.label.city$standard, name=plot.label.city$label, mode="lines", line=list(color="blue", dash="dot"), text=plot.label.city$label, hoverinfo="text")  %>%
+   layout(xaxis=list(title=""),
+          yaxis=list(title=paste0(pollutant.formatted, " (", units.formatted, ")")))
+
+ # ### choose correct plot depending on if there is an available standard
+ if (!length(plot.label.city$standard)==0){
+   p1
+ } else{
+    p0
+ }
+
+})
+
+############################################## Ozone Plotly #####################
+output$plot1Ozone <- renderPlotly ({
+  city.choice <- input$city_choice
+  pollutant.choice <- input$pollutant_choice
+
+  ####### formatted choices: pollutant, units
+  
+   units <- (ozone.q8.df  %>%
+              filter(city == city.choice,
+                     pollutant=="Ozone") %>%
+              group_by(unit) %>% 
+              count())[1,1]
+  
+  if(is.na(units)){
+    units.formatted <- NA_character_
+  } else if (units=="ug/m3"){
+    units.formatted <-"ug/m<sup>3</sup>"
+  } else if(units=="ppb") {
+    units.formatted <-"ppb"
+  }
+   
+#############################################
+
+############ Select standards
+plot.label.city <- standards.df %>%
+  filter(city== city.choice,
+         pollutant=="Ozone")
+
+if (is.na(units)){
+  plot.label.WHO <- standards.df[FALSE,]
+} else if (units=="ppb"){
+  plot.label.WHO <- standards.df %>%
+      filter(city=="WHO",
+             pollutant== pollutant.choice,
+             grepl("ppb", label))
+} else{
+    plot.label.WHO<-standards.df %>%
+      filter(city=="WHO",
+             pollutant== pollutant.choice,
+             !grepl("ppb", label))
+  }
+   
+#################
+#plot if no city/country standard is available
+
+
+ p0<-ozone.q8.df%>%
+     filter(city==city.choice,
+            concentration>=plot.label.WHO$standard) %>%
+  plot_ly(x=~date.time, y=~concentration,
+          type="scatter",
+          mode="markers",
+          text = ~str_c("Year: ", year, "<br>Date: ", date(date), "<br>Time Period: ", time, "<br>Ozone: ", round(concentration, 3), " ", units.formatted),
+          hoverinfo="text", showlegend=F) %>%
+         add_trace(y=~plot.label.WHO$standard, name=plot.label.WHO$label, mode="lines", line=list(color="red", dash="dash")) %>%
+    layout(xaxis=list(title="8-hour Ozone Exceedances", showline=FALSE, showticklabels=FALSE),
+           yaxis=list(title=paste0("Ozone", " (", units.formatted, ")")))
+
+
+ 
+#### plot if line is available
+ p1<-ozone.q8.df%>%
+   filter(city== city.choice,
+          concentration>=plot.label.WHO$standard) %>%
+   plot_ly(x=~date.time, y=~concentration,
+          type="scatter",
+          mode="markers",
+          text = ~str_c("Year: ", year, "<br>Date: ", date(date), "<br>Time Period: ", time, "<br>Ozone: ", round(concentration, 3), " ", units.formatted),
+          hoverinfo="text", showlegend=F) %>%
+      add_trace(y=~plot.label.WHO$standard, name=plot.label.WHO$label, mode="lines", line=list(color="red", dash="dash"), text=plot.label.WHO$label, hoverinfo="text") %>%
+      add_trace(y=~plot.label.city$standard, name=plot.label.city$label, mode="lines", line=list(color="purple", dash="dot"), text=plot.label.city$label, hoverinfo="text") %>%
+      layout(xaxis=list(title="8-hour Ozone Exceedances", showline=FALSE, showticklabels=FALSE),
+             yaxis=list(title=paste0("Ozone", " (", units.formatted, ")")))
+
+
+### choose correct plot depending on if there is an available standard
+
+  if (!is.na(plot.label.city$standard)){
+   p1
+ } else{
+    p0
+ }
+
+})
+
+######################################### no pollutant data available ###########
+output$text <- renderUI({
+ pollutant.choice <- input$pollutant_choice
+  ### pollutant
+      if (pollutant.choice=="PM2.5"){
+        pollutant.formatted <- gsub("2.5", "<sub>2.5</sub>", pollutant.choice)
+      } else if (pollutant.choice %in% c("SO2", "NO2")){
+        pollutant.formatted <- gsub("2", "<sub>2</sub>", pollutant.choice)
+      } else if (pollutant.choice=="PM10"){
+        pollutant.formatted <- gsub("10", "<sub>10</sub>",pollutant.choice)
+      } else if (pollutant.choice=="Ozone"){
+        pollutant.formatted <- "Ozone"
+      }
+  HTML(paste0("No ", pollutant.formatted ," Data Available"))})
+```
+
+### Air Monitoring System Summary
+
+```{r}
+renderTable({
+  map.choice <- input$city_choice
+
+table1 = read.csv("Data2/aqm_summary_table.csv")
+city_table = table1 %>%
+  filter(city == map.choice) %>%
+  dplyr::select(monitor_count, ref_count, lcs_count, measure_freq, policy_level, policy_name, policy_year, policy_desc) %>%
+  rename(
+    "<b>Total Monitor Count:</b>" = monitor_count,
+    "&nbsp;&nbsp;&nbsp;&nbsp;<b>Reference:</b>" = ref_count,
+    "&nbsp;&nbsp;&nbsp;&nbsp;<b>Low-Cost:</b>" = lcs_count,
+    "<b>Measure Frequency:</b>" = measure_freq,
+    "<b>Policy Level:</b>" = policy_level,
+    "<b>Policy Name:</b>" = policy_name,
+    "<b>Policy Year:</b>" = policy_year,
+    "<b>Policy Description:</b>" = policy_desc
+  )
+city_table = data.frame(t(city_table))
+colnames(city_table) = map.choice
+
+city_table}, include.rownames=TRUE, include.colnames=TRUE, spacing='xs', sanitize.text.function = function(x) x)
+```

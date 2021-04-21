@@ -1,0 +1,74 @@
+city,pollutant,label,standard
+WHO,PM2.5,WHO Annual PM<sub>2.5</sub><br> Guideline: 10 ug/m<sup>3</sup>,10
+WHO,SO2,WHO Annual SO<sub>2</sub> <br>Guideline: 7.6 ppb (20 ug/m<sup>3</sup>),7.6
+WHO,Ozone,WHO 8 hour O<sub>3</sub> <br>Guidline: 46.7 ppb (100 ug/m<sup>3</sup>),46.7
+WHO,NO2,WHO Annual NO<sub>2</sub> <br>Guidline: 15.3 ppb (40 ug/m<sup>3</sup>),15.3
+WHO,SO2,WHO Annual SO<sub>2</sub> <br>Guideline: 20 ug/m<sup>3</sup>,20
+WHO,Ozone,WHO 8 hour O<sub>3</sub> <br>Guidline: 100 ug/m<sup>3</sup>,100
+WHO,NO2,WHO Annual NO<sub>2</sub> <br>Guidline: 40 ug/m<sup>3</sup>,40
+WHO,PM10,WHO Annual PM<sub>10</sub> <br>Guidline: 20 ug/m<sup>3</sup>,20
+Johannesburg,PM2.5,SA Annual PM<sub>2.5</sub> <br>Standard: 20 ug/m<sup>3</sup>,20
+Johannesburg,SO2,SA Annual SO<sub>2</sub> <br>Standard: 19 ppb (50 ug/m<sup>3</sup>),19
+Johannesburg,Ozone,SA 8 hour O<sub>3</sub> <br>Standard: 61 ppb (120 ug/m<sup>3</sup>),61
+Johannesburg,NO2,SA Annual NO<sub>2</sub> <br>Standard: 21 ppb (40 ug/m<sup>3</sup>),21
+Johannesburg,PM10,SA Annual PM<sub>10</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+Cape Town,PM2.5,SA Annual PM<sub>2.5</sub> <br>Standard: 20 ug/m<sup>3</sup>,20
+Cape Town,SO2,SA Annual SO<sub>2</sub> <br>Standard: 19 ppb (50 ug/m<sup>3</sup>),19
+Cape Town,Ozone,SA 8 hour O<sub>3</sub> <br>Standard: 61 ppb (120 ug/m<sup>3</sup>),61
+Cape Town,NO2,SA Annual NO<sub>2</sub> <br>Standard: 21 ppb (40 ug/m<sup>3</sup>),21
+Cape Town,PM10,SA Annual PM<sub>10</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+eThekwini (Durban),PM2.5,SA Annual PM<sub>2.5</sub> <br>Standard: 20 ug/m<sup>3</sup>,20
+eThekwini (Durban),SO2,SA Annual SO<sub>2</sub> <br>Standard: 19 ppb (50 ug/m<sup>3</sup>),19
+eThekwini (Durban),Ozone,SA 8 hour O<sub>3</sub> <br>Standard: 61 ppb (120 ug/m<sup>3</sup>),61
+eThekwini (Durban),NO2,SA Annual NO<sub>2</sub> <br>Standard: 21 ppb (40 ug/m<sup>3</sup>),21
+eThekwini (Durban),PM10,SA Annual PM<sub>10</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+Tshwane,PM2.5,SA Annual PM<sub>2.5</sub> <br>Standard: 20 ug/m<sup>3</sup>,20
+Tshwane,SO2,SA Annual SO<sub>2</sub> <br>Standard: 19 ppb (50 ug/m<sup>3</sup>),19
+Tshwane,Ozone,SA 8 hour O<sub>3</sub> <br>Standard: 61 ppb (120 ug/m<sup>3</sup>),61
+Tshwane,NO2,SA Annual NO<sub>2</sub> <br>Standard: 21 ppb (40 ug/m<sup>3</sup>),21
+Tshwane,PM10,SA Annual PM<sub>10</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+Ekurhuleni,PM2.5,SA Annual PM<sub>2.5</sub> <br>Standard: 20 ug/m<sup>3</sup>,20
+Ekurhuleni,SO2,SA Annual SO<sub>2</sub> <br>Standard: 19 ppb (50 ug/m<sup>3</sup>),19
+Ekurhuleni,Ozone,SA 8 hour O<sub>3</sub> <br>Standard: 61 ppb (120 ug/m<sup>3</sup>),61
+Ekurhuleni,NO2,SA Annual NO<sub>2</sub> <br>Standard: 21 ppb (40 ug/m<sup>3</sup>),21
+Ekurhuleni,PM10,SA Annual PM<sub>10</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+Addis Ababa,PM2.5,Ethiopia Annual PM<sub>2.5</sub> <br>Standard: 15 ug/m<sup>3</sup>,15
+Addis Ababa,SO2,Ethiopia Annual SO<sub>2</sub> <br>Standard: 50 ppb,50
+Addis Ababa,Ozone,Ethiopia 8 hour O<sub>3</sub> <br>Standard: 120 ug/m<sup>3</sup>,120
+Addis Ababa,NO2,Ethiopia Annual NO<sub>2</sub> <br>Standard: 40 ppb,40
+Addis Ababa,PM10,Ethiopia Annual PM<sub>10</sub> <br>Standard: 50 ug/m<sup>3</sup>,50
+Lagos,PM2.5,NA,NA
+Lagos,PM10,LASEPA Annual PM<sub>10</sub> <br>Standard: 60 ug/m<sup>3</sup>,60
+Lagos,SO2,NA,NA
+Lagos,Ozone,NA,NA
+Lagos,NO2,NA,NA
+Freetown,PM2.5,NA,NA
+Freetown,SO2,NA,NA
+Freetown,Ozone,NA,NA
+Freetown,NO2,NA,NA
+Freetown,PM10,NA,NA
+Dakar,PM2.5,Senegal Annual PM<sub>2.5</sub> <br>Standard: 25 ug/m<sup>3</sup>,25
+Dakar,SO2,NA,NA
+Dakar,Ozone,Senegal 8 hour O<sub>3</sub> <br>Standard: 100 ug/m<sup>3</sup>,100
+Dakar,NO2,Senegal Annual NO<sub>2</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+Dakar,PM10,Senegal Annual PM<sub>10</sub> <br>Standard: 40 ug/m<sup>3</sup>,40
+Nairobi,PM2.5,Kenya Annual PM<sub>2.</sub> <br>Standard: 35 ug/m<sup>3</sup>,35
+Nairobi,SO2,Kenya Annual SO<sub>2</sub> <br>Standard: 80 ppb,80
+Nairobi,Ozone,Kenya 8 hour O<sub>3</sub> <br>Standard: 120 ug/m<sup>3</sup>,120
+Nairobi,NO2,Kenya Annual NO<sub>2</sub> <br>Standard: 150 ug/m<sup>3</sup>,150
+Nairobi,PM10,Kenya Annual PM<sub>10</sub> <br>Standard: 70 ug/m<sup>3</sup>,70
+Dar es Salaam,PM2.5,NA,NA
+Dar es Salaam,SO2,Tanzania Annual SO<sub>2</sub> <br>Standard: 60 ppb,60
+Dar es Salaam,Ozone,Tanzania 8 hour O<sub>3</sub> <br>Standard: 120 ug/m<sup>3</sup>,120
+Dar es Salaam,NO2,Tanzania Annual NO<sub>2</sub> <br>Standard: 0.1 ug/m<sup>3</sup>,0.1
+Dar es Salaam,PM10,Tanzania Annual PM<sub>10</sub> <br>Standard: 90 ug/m<sup>3</sup>,90
+Accra,PM2.5,Anticipated Daily PM<sub>2.5</sub> <br>Standard: 12 ug/m<sup>3</sup>,12
+Accra,SO2,Anticipated Daily SO<sub>2</sub> <br>Standard: 50 ug/m<sup>3</sup>,50
+Accra,Ozone,NA,NA
+Accra,NO2,Anticipated Daily NO<sub>2</sub> <br>Standard: 150 ug/m<sup>3</sup>,150
+Accra,PM10,Anticipated Annual PM<sub>10</sub> <br>Standard: 20 ug/m<sup>3</sup>,20
+Abidjan,PM2.5,NA,NA
+Abidjan,SO2,NA,NA
+Abidjan,Ozone,NA,NA
+Abidjan,NO2,NA,NA
+Abidjan,PM10,NA,NA

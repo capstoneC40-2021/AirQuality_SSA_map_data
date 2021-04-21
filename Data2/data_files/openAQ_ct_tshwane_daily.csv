@@ -1,0 +1,559 @@
+"pollutant","lat","long","date","station","city","datasource","station_area","obs.period","unit","concentration"
+"PM10",-34.0908,18.8518,"2021-01-20","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.55912347919607
+"PM10",-34.0908,18.8518,"2021-01-21","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.24344116682239
+"PM10",-34.0908,18.8518,"2021-01-22","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.64806254941313
+"PM10",-34.0908,18.8518,"2021-01-23","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.43567478508959
+"PM10",-34.0908,18.8518,"2021-01-24","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.41039696148892
+"PM10",-34.0908,18.8518,"2021-01-25","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.48443341460583
+"PM10",-34.0908,18.8518,"2021-01-26","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.65502951143039
+"PM10",-34.0908,18.8518,"2021-01-27","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.40567137861763
+"PM10",-34.0908,18.8518,"2021-01-28","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.24484881657296
+"PM10",-34.0908,18.8518,"2021-01-29","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.66407015143222
+"PM10",-34.0908,18.8518,"2021-01-30","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.87072021918765
+"PM10",-34.0908,18.8518,"2021-01-31","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.56811986863711
+"PM10",-34.0908,18.8518,"2021-02-01","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.986607909969979
+"PM10",-34.0908,18.8518,"2021-02-02","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.66606997727687
+"PM10",-34.0908,18.8518,"2021-02-03","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.08042659766798
+"PM10",-34.0908,18.8518,"2021-02-04","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.98888279345176
+"PM10",-34.0908,18.8518,"2021-02-05","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.15980106100796
+"PM10",-34.0908,18.8518,"2021-02-06","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.8249680715198
+"PM10",-34.0908,18.8518,"2021-02-07","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.68479039160074
+"PM10",-34.0908,18.8518,"2021-02-08","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.59526596930812
+"PM10",-34.0908,18.8518,"2021-02-09","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.36624266474267
+"PM10",-34.0908,18.8518,"2021-02-10","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.87132970516969
+"PM10",-34.0908,18.8518,"2021-02-11","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.44921515311373
+"PM10",-34.0908,18.8518,"2021-02-12","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.49367596324493
+"PM10",-34.0908,18.8518,"2021-02-13","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.21553107705406
+"PM10",-34.0908,18.8518,"2021-02-14","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.40745257509625
+"PM10",-34.0908,18.8518,"2021-02-15","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.22164081980174
+"PM10",-34.0908,18.8518,"2021-02-16","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.478203038624495
+"PM10",-34.0908,18.8518,"2021-02-17","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.76931366944394
+"PM10",-34.0908,18.8518,"2021-02-18","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.70622263385976
+"PM10",-34.0908,18.8518,"2021-02-19","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.67733650130202
+"PM10",-34.0908,18.8518,"2021-02-20","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.740331967252362
+"PM10",-34.0908,18.8518,"2021-02-21","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.82404120411304
+"PM10",-34.0908,18.8518,"2021-02-22","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.08992017234929
+"PM10",-34.0908,18.8518,"2021-02-23","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.7834695476937
+"PM10",-34.0908,18.8518,"2021-02-24","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",11.0534419452087
+"PM10",-34.0908,18.8518,"2021-02-25","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.507955909102836
+"PM10",-34.0908,18.8518,"2021-02-26","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.789595586405931
+"PM10",-34.0908,18.8518,"2021-02-27","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.14720194901948
+"PM10",-34.0908,18.8518,"2021-02-28","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.7634396017298
+"PM10",-34.0908,18.8518,"2021-03-01","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",13.5766292647327
+"PM10",-34.0908,18.8518,"2021-03-02","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.41045019309941
+"PM10",-34.0908,18.8518,"2021-03-03","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.07528414134006
+"PM10",-34.0908,18.8518,"2021-03-04","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.25345872518286
+"PM10",-34.0908,18.8518,"2021-03-05","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.54014877543633
+"PM10",-34.0908,18.8518,"2021-03-06","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.99973438841476
+"PM10",-34.0908,18.8518,"2021-03-07","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.02040191693096
+"PM10",-34.0908,18.8518,"2021-03-08","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.00536635742574
+"PM10",-34.0908,18.8518,"2021-03-09","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.11948728545318
+"PM10",-34.0908,18.8518,"2021-03-11","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.1461834270455
+"PM10",-34.0908,18.8518,"2021-03-12","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.84177864302075
+"PM10",-34.0908,18.8518,"2021-03-13","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.18211825614462
+"PM10",-34.0908,18.8518,"2021-03-14","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.00966794380588
+"PM10",-34.0908,18.8518,"2021-03-15","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.12222527620983
+"PM10",-34.0908,18.8518,"2021-03-16","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.997162330981775
+"PM10",-34.0908,18.8518,"2021-03-17","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.19848483572622
+"PM10",-34.0908,18.8518,"2021-03-18","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.70865663328566
+"PM10",-34.0908,18.8518,"2021-03-19","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.19600279567897
+"PM10",-34.0908,18.8518,"2021-03-20","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.59423107161768
+"PM10",-34.0908,18.8518,"2021-03-21","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.32812351760628
+"PM10",-34.0908,18.8518,"2021-03-22","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.28175547099618
+"PM10",-34.0908,18.8518,"2021-03-23","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.97299895111552
+"PM10",-34.0908,18.8518,"2021-03-24","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.22849297573435
+"PM10",-34.0908,18.8518,"2021-03-25","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.7118496464689
+"PM10",-34.0908,18.8518,"2021-03-26","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.63187332374593
+"PM10",-34.0908,18.8518,"2021-03-27","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.20616723408072
+"PM10",-34.0908,18.8518,"2021-03-28","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.52926701331873
+"PM10",-34.0908,18.8518,"2021-03-29","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.72353820429252
+"PM10",-34.0908,18.8518,"2021-03-30","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.1534590241803
+"PM10",-34.0908,18.8518,"2021-03-31","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.84615307425652
+"PM10",-33.9424,18.4634,"2021-01-20","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.29789377991102
+"PM10",-33.9424,18.4634,"2021-01-21","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.40917121495161
+"PM10",-33.9424,18.4634,"2021-01-22","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",7.10683698045585
+"PM10",-33.9424,18.4634,"2021-01-23","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",8.60680929932181
+"PM10",-33.9424,18.4634,"2021-01-24","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.87487490988777
+"PM10",-33.9424,18.4634,"2021-01-25","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.35848154869934
+"PM10",-33.9424,18.4634,"2021-01-26","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.66321283439459
+"PM10",-33.9424,18.4634,"2021-01-27","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.92740684762237
+"PM10",-33.9424,18.4634,"2021-01-28","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.29760459578064
+"PM10",-33.9424,18.4634,"2021-01-29","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.15751841289046
+"PM10",-33.9424,18.4634,"2021-01-30","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",7.93335178089967
+"PM10",-33.9424,18.4634,"2021-01-31","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.25868012944238
+"PM10",-33.9424,18.4634,"2021-02-01","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.29690605824907
+"PM10",-33.9424,18.4634,"2021-02-02","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.67802998876502
+"PM10",-33.9424,18.4634,"2021-02-03","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.59395471437214
+"PM10",-33.9424,18.4634,"2021-02-04","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.73711430746718
+"PM10",-33.9424,18.4634,"2021-02-05","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.54275851970165
+"PM10",-33.9424,18.4634,"2021-02-06","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.64332553196717
+"PM10",-33.9424,18.4634,"2021-02-07","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.1433480312167
+"PM10",-33.9424,18.4634,"2021-02-08","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.13556134421732
+"PM10",-33.9424,18.4634,"2021-02-09","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.14840298619495
+"PM10",-33.9424,18.4634,"2021-02-10","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.11739113578497
+"PM10",-33.9424,18.4634,"2021-02-11","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.31396114808093
+"PM10",-33.9424,18.4634,"2021-02-12","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.64148690692248
+"PM10",-33.9424,18.4634,"2021-02-13","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.03113330552769
+"PM10",-33.9424,18.4634,"2021-02-14","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.33076731037828
+"PM10",-33.9424,18.4634,"2021-02-15","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.93104047970625
+"PM10",-33.9424,18.4634,"2021-02-16","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.45615032668806
+"PM10",-33.9424,18.4634,"2021-02-17","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.25876654620112
+"PM10",-33.9424,18.4634,"2021-02-18","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.93115845323356
+"PM10",-33.9424,18.4634,"2021-02-19","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.41378809922014
+"PM10",-33.9424,18.4634,"2021-02-20","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.42565119695791
+"PM10",-33.9424,18.4634,"2021-02-21","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.40847682118984
+"PM10",-33.9424,18.4634,"2021-02-22","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.81645462719109
+"PM10",-33.9424,18.4634,"2021-02-23","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.13497412112657
+"PM10",-33.9424,18.4634,"2021-02-24","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.4616702249164
+"PM10",-33.9424,18.4634,"2021-02-25","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.47499084104564
+"PM10",-33.9424,18.4634,"2021-02-26","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.69890070002593
+"PM10",-33.9424,18.4634,"2021-02-27","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.09280588537709
+"PM10",-33.9424,18.4634,"2021-02-28","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.25020179759744
+"PM10",-33.9424,18.4634,"2021-03-01","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",12.1039435534673
+"PM10",-33.9424,18.4634,"2021-03-02","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",10.6475009879547
+"PM10",-33.9424,18.4634,"2021-03-03","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",10.808874725127
+"PM10",-33.9424,18.4634,"2021-03-04","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.58504684183436
+"PM10",-33.9424,18.4634,"2021-03-05","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.73646109452825
+"PM10",-33.9424,18.4634,"2021-03-06","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",13.6661608015397
+"PM10",-33.9424,18.4634,"2021-03-07","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",8.24085818547897
+"PM10",-33.9424,18.4634,"2021-03-08","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.25411546106646
+"PM10",-33.9424,18.4634,"2021-03-09","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.90228113624594
+"PM10",-33.9424,18.4634,"2021-03-10","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",8.23333333333333
+"PM10",-33.9424,18.4634,"2021-03-11","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.36770513448372
+"PM10",-33.9424,18.4634,"2021-03-12","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",11.7468384112359
+"PM10",-33.9424,18.4634,"2021-03-13","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.78189818415771
+"PM10",-33.9424,18.4634,"2021-03-14","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.9576927274237
+"PM10",-33.9424,18.4634,"2021-03-15","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.31443237952765
+"PM10",-33.9424,18.4634,"2021-03-16","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.94082834185375
+"PM10",-33.9424,18.4634,"2021-03-17","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.916662921672
+"PM10",-33.9424,18.4634,"2021-03-18","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",10.1619945102134
+"PM10",-33.9424,18.4634,"2021-03-19","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.70520088535515
+"PM10",-33.9424,18.4634,"2021-03-20","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.13379074609582
+"PM10",-33.9424,18.4634,"2021-03-21","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.86097920546828
+"PM10",-33.9424,18.4634,"2021-03-22","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.46990320629159
+"PM10",-33.9424,18.4634,"2021-03-23","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.89201737289385
+"PM10",-33.9424,18.4634,"2021-03-24","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",8.93238268084003
+"PM10",-33.9424,18.4634,"2021-03-25","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",10.1857202082285
+"PM10",-33.9424,18.4634,"2021-03-26","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",10.6697080138152
+"PM10",-33.9424,18.4634,"2021-03-27","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.72071947109152
+"PM10",-33.9424,18.4634,"2021-03-28","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.17879393166825
+"PM10",-33.9424,18.4634,"2021-03-29","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",10.8149984481122
+"PM10",-33.9424,18.4634,"2021-03-30","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",14.0994398064126
+"PM10",-33.9424,18.4634,"2021-03-31","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",9.5165652655178
+"PM10",-25.8292,28.2034,"2021-01-13","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",25.25
+"PM10",-25.8292,28.2034,"2021-01-14","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.8880204822401
+"PM10",-25.8292,28.2034,"2021-01-15","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.0735141493581
+"PM10",-25.8292,28.2034,"2021-01-16","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",22.7451183994469
+"PM10",-25.8292,28.2034,"2021-01-17","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.0211321406966
+"PM10",-25.8292,28.2034,"2021-01-18","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",23.1806693457782
+"PM10",-25.8292,28.2034,"2021-01-19","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",12.7347737380587
+"PM10",-25.8292,28.2034,"2021-01-20","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.0490284434931
+"PM10",-25.8292,28.2034,"2021-01-21","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.2986965498036
+"PM10",-25.8292,28.2034,"2021-01-22","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.26058119436523
+"PM10",-25.8292,28.2034,"2021-01-23","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.68999417568383
+"PM10",-25.8292,28.2034,"2021-01-24","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",2.92776875138037
+"PM10",-25.8292,28.2034,"2021-01-25","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.32499995198725
+"PM10",-25.8292,28.2034,"2021-01-26","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.57957117805122
+"PM10",-25.8292,28.2034,"2021-01-27","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",6.04969271911663
+"PM10",-25.8292,28.2034,"2021-01-28","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",14.0445994296085
+"PM10",-25.8292,28.2034,"2021-01-29","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",10.1752024623894
+"PM10",-25.8292,28.2034,"2021-01-30","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.44612489610574
+"PM10",-25.8292,28.2034,"2021-01-31","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",16.1346466409171
+"PM10",-25.8292,28.2034,"2021-02-01","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.65168078537044
+"PM10",-25.8292,28.2034,"2021-02-02","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",3.84853097782771
+"PM10",-25.8292,28.2034,"2021-02-03","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",3.01772947454844
+"PM10",-25.8292,28.2034,"2021-02-04","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.86945977011494
+"PM10",-25.8292,28.2034,"2021-02-05","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.09528679124868
+"PM10",-25.8292,28.2034,"2021-02-06","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.88897701149425
+"PM10",-25.8292,28.2034,"2021-02-07","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.72851888341544
+"PM10",-25.8292,28.2034,"2021-02-08","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",6.40479342273308
+"PM10",-25.8292,28.2034,"2021-02-09","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.62157608695652
+"PM10",-25.8292,28.2034,"2021-02-10","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.1070086134877
+"PM10",-25.8292,28.2034,"2021-02-11","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",14.0615537942262
+"PM10",-25.8292,28.2034,"2021-02-12","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",10.0589728741246
+"PM10",-25.8292,28.2034,"2021-02-13","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.51898305053823
+"PM10",-25.8292,28.2034,"2021-02-14","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.9082832238906
+"PM10",-25.8292,28.2034,"2021-02-15","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",11.3579033342456
+"PM10",-25.8292,28.2034,"2021-02-16","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",27.6694466338259
+"PM10",-25.8292,28.2034,"2021-02-17","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.03170001115373
+"PM10",-25.8292,28.2034,"2021-02-18","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",23.5613971755206
+"PM10",-25.8292,28.2034,"2021-02-19","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.1173819236215
+"PM10",-25.8292,28.2034,"2021-02-25","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",33.945080301882
+"PM10",-25.8292,28.2034,"2021-02-26","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.1973034059619
+"PM10",-25.8292,28.2034,"2021-02-27","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",14.539292247344
+"PM10",-25.8292,28.2034,"2021-02-28","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",5.5395381773399
+"PM10",-25.8292,28.2034,"2021-03-01","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",6.17330134830236
+"PM10",-25.8292,28.2034,"2021-03-02","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",22.1322419722678
+"PM10",-25.8292,28.2034,"2021-03-03","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",31.1499766979133
+"PM10",-25.8292,28.2034,"2021-03-04","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",32.2003764367816
+"PM10",-25.8292,28.2034,"2021-03-05","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",30.1971622054309
+"PM10",-25.8292,28.2034,"2021-03-06","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",31.6937536945813
+"PM10",-25.8292,28.2034,"2021-03-07","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.3426281493188
+"PM10",-25.8292,28.2034,"2021-03-08","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.6042576358341
+"PM10",-25.8292,28.2034,"2021-03-09","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.1297526203579
+"PM10",-25.8292,28.2034,"2021-03-10","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",12.6863095238095
+"PM10",-25.8292,28.2034,"2021-03-11","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.5940224566396
+"PM10",-25.8292,28.2034,"2021-03-12","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",26.3642989372027
+"PM10",-25.8292,28.2034,"2021-03-13","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.4812604787832
+"PM10",-25.8292,28.2034,"2021-03-14","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.17467594295173
+"PM10",-25.8292,28.2034,"2021-03-15","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.41155180834491
+"PM10",-25.8292,28.2034,"2021-03-16","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",32.3142660055808
+"PM10",-25.8292,28.2034,"2021-03-17","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",22.09933364145
+"PM10",-25.8292,28.2034,"2021-03-18","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.2623356689472
+"PM10",-25.8292,28.2034,"2021-03-19","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.2919544250127
+"PM10",-25.8292,28.2034,"2021-03-20","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",27.1237076695169
+"PM10",-25.8292,28.2034,"2021-03-21","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",28.9201679376658
+"PM10",-25.8292,28.2034,"2021-03-22","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",37.5714074427477
+"PM10",-25.8292,28.2034,"2021-03-23","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",30.3742495473875
+"PM10",-25.8292,28.2034,"2021-03-24","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",29.2456774754343
+"PM10",-25.8292,28.2034,"2021-03-25","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",26.0095781503567
+"PM10",-25.8292,28.2034,"2021-03-26","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",15.7779617847553
+"PM10",-25.8292,28.2034,"2021-03-27","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",24.6098210907559
+"PM10",-25.8292,28.2034,"2021-03-28","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.36337867177522
+"PM10",-25.8292,28.2034,"2021-03-29","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",5.76391434236262
+"PM10",-25.8292,28.2034,"2021-03-30","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.375403667214
+"PM10",-25.8292,28.2034,"2021-03-31","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",34.3868386699507
+"PM10",-25.776,28.2107,"2021-01-20","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.5858531072376
+"PM10",-25.776,28.2107,"2021-01-21","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",19.7078647961234
+"PM10",-25.776,28.2107,"2021-01-22","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.26838661657627
+"PM10",-25.776,28.2107,"2021-01-23","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.51324704031601
+"PM10",-25.776,28.2107,"2021-01-24","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.30886833728213
+"PM10",-25.776,28.2107,"2021-01-25","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.56555984245639
+"PM10",-25.776,28.2107,"2021-01-26","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.02267988832593
+"PM10",-25.776,28.2107,"2021-01-27","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.58714917886346
+"PM10",-25.776,28.2107,"2021-01-28","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",14.309092401851
+"PM10",-25.776,28.2107,"2021-01-29","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.18485891503133
+"PM10",-25.776,28.2107,"2021-01-30","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.85757949840708
+"PM10",-25.776,28.2107,"2021-01-31","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",16.0423648637442
+"PM10",-25.776,28.2107,"2021-02-01","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.01221600238841
+"PM10",-25.776,28.2107,"2021-02-02","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.60475854605165
+"PM10",-25.776,28.2107,"2021-02-03","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.51239173342622
+"PM10",-25.776,28.2107,"2021-02-04","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.28409723881359
+"PM10",-25.776,28.2107,"2021-02-05","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.358153284136
+"PM10",-25.776,28.2107,"2021-02-06","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.38691819674578
+"PM10",-25.776,28.2107,"2021-02-07","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.37232771060358
+"PM10",-25.776,28.2107,"2021-02-08","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.67133692381424
+"PM10",-25.776,28.2107,"2021-02-09","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.23976417782844
+"PM10",-25.776,28.2107,"2021-02-10","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",19.7947489009785
+"PM10",-25.776,28.2107,"2021-02-11","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.7490288461538
+"PM10",-25.776,28.2107,"2021-02-12","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.7654285682881
+"PM10",-25.776,28.2107,"2021-02-13","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.29492094791872
+"PM10",-25.776,28.2107,"2021-02-14","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.2832784409592
+"PM10",-25.776,28.2107,"2021-02-15","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.65325641472193
+"PM10",-25.776,28.2107,"2021-02-16","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",17.0860278262503
+"PM10",-25.776,28.2107,"2021-02-17","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.73944111444111
+"PM10",-25.776,28.2107,"2021-02-18","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.8761228119379
+"PM10",-25.776,28.2107,"2021-02-19","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",13.2789408188468
+"PM10",-25.776,28.2107,"2021-02-20","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.6445650237899
+"PM10",-25.776,28.2107,"2021-02-21","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",17.8397188054602
+"PM10",-25.776,28.2107,"2021-02-22","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",18.9566278971923
+"PM10",-25.776,28.2107,"2021-02-23","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.3599056006938
+"PM10",-25.776,28.2107,"2021-02-24","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",24.3470226341637
+"PM10",-25.776,28.2107,"2021-02-25","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",34.7684250593846
+"PM10",-25.776,28.2107,"2021-02-26","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",20.2996975827041
+"PM10",-25.776,28.2107,"2021-03-02","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",25.4794891857823
+"PM10",-25.776,28.2107,"2021-03-03","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",25.7795473381081
+"PM10",-25.776,28.2107,"2021-03-04","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",30.3544983911363
+"PM10",-25.776,28.2107,"2021-03-05","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.7152353999768
+"PM10",-25.776,28.2107,"2021-03-06","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",28.8413319152112
+"PM10",-25.776,28.2107,"2021-03-07","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",16.2817262391552
+"PM10",-25.776,28.2107,"2021-03-08","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",14.9880195258126
+"PM10",-25.776,28.2107,"2021-03-09","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",19.465813817908
+"PM10",-25.776,28.2107,"2021-03-10","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",15.6581904761905
+"PM10",-25.776,28.2107,"2021-03-11","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",13.1936509180475
+"PM10",-25.776,28.2107,"2021-03-12","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",27.6397540628445
+"PM10",-25.776,28.2107,"2021-03-13","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.5217478562306
+"PM10",-25.776,28.2107,"2021-03-14","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.683837198874
+"PM10",-25.776,28.2107,"2021-03-15","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.75933136360888
+"PM10",-25.776,28.2107,"2021-03-16","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",31.2509043159905
+"PM10",-25.776,28.2107,"2021-03-17","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",19.438430796804
+"PM10",-25.776,28.2107,"2021-03-18","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",17.8396530576703
+"PM10",-25.776,28.2107,"2021-03-19","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",22.8224483884738
+"PM10",-25.776,28.2107,"2021-03-20","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",28.0163670861015
+"PM10",-25.776,28.2107,"2021-03-21","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.542183908046
+"PM10",-25.776,28.2107,"2021-03-22","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",34.8390020247527
+"PM10",-25.776,28.2107,"2021-03-23","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",40.9720378248826
+"PM10",-25.776,28.2107,"2021-03-24","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",28.8598247481198
+"PM10",-25.776,28.2107,"2021-03-25","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",36.5822072448624
+"PM10",-25.776,28.2107,"2021-03-28","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",31.8017424242424
+"PM10",-25.776,28.2107,"2021-03-29","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.1167504365731
+"PM10",-25.776,28.2107,"2021-03-31","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",31.9122075123153
+"PM2.5",-34.0908,18.8518,"2021-01-20","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.10033344856394
+"PM2.5",-34.0908,18.8518,"2021-01-21","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.69234054649763
+"PM2.5",-34.0908,18.8518,"2021-01-22","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.82700368951327
+"PM2.5",-34.0908,18.8518,"2021-01-23","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.57537798625981
+"PM2.5",-34.0908,18.8518,"2021-01-24","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.78098497741793
+"PM2.5",-34.0908,18.8518,"2021-01-25","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.07220422616974
+"PM2.5",-34.0908,18.8518,"2021-01-26","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.87364905857035
+"PM2.5",-34.0908,18.8518,"2021-01-27","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.95944587744537
+"PM2.5",-34.0908,18.8518,"2021-01-28","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.75510246139556
+"PM2.5",-34.0908,18.8518,"2021-01-29","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.23633016536465
+"PM2.5",-34.0908,18.8518,"2021-01-30","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.43937769481831
+"PM2.5",-34.0908,18.8518,"2021-01-31","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.22083926290823
+"PM2.5",-34.0908,18.8518,"2021-02-01","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.667217743941882
+"PM2.5",-34.0908,18.8518,"2021-02-02","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.35102026007198
+"PM2.5",-34.0908,18.8518,"2021-02-03","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.56990375843824
+"PM2.5",-34.0908,18.8518,"2021-02-04","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.72160749531439
+"PM2.5",-34.0908,18.8518,"2021-02-05","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.5505977993909
+"PM2.5",-34.0908,18.8518,"2021-02-06","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.46058806455358
+"PM2.5",-34.0908,18.8518,"2021-02-07","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.20602569206017
+"PM2.5",-34.0908,18.8518,"2021-02-08","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.10759441707718
+"PM2.5",-34.0908,18.8518,"2021-02-09","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.99495828564794
+"PM2.5",-34.0908,18.8518,"2021-02-10","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.36010166433538
+"PM2.5",-34.0908,18.8518,"2021-02-11","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.88300052843258
+"PM2.5",-34.0908,18.8518,"2021-02-12","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.72575850182172
+"PM2.5",-34.0908,18.8518,"2021-02-13","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.61915703744247
+"PM2.5",-34.0908,18.8518,"2021-02-14","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.02343753167508
+"PM2.5",-34.0908,18.8518,"2021-02-15","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.856292495286748
+"PM2.5",-34.0908,18.8518,"2021-02-16","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.278268127501844
+"PM2.5",-34.0908,18.8518,"2021-02-17","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.25686294066371
+"PM2.5",-34.0908,18.8518,"2021-02-18","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.38427926806078
+"PM2.5",-34.0908,18.8518,"2021-02-19","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.35002069131379
+"PM2.5",-34.0908,18.8518,"2021-02-20","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.531724971495087
+"PM2.5",-34.0908,18.8518,"2021-02-21","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.46225607512964
+"PM2.5",-34.0908,18.8518,"2021-02-22","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.54550239302346
+"PM2.5",-34.0908,18.8518,"2021-02-23","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.0344644308437
+"PM2.5",-34.0908,18.8518,"2021-02-24","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.79902900197165
+"PM2.5",-34.0908,18.8518,"2021-02-25","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.360096172914764
+"PM2.5",-34.0908,18.8518,"2021-02-26","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.568432477484201
+"PM2.5",-34.0908,18.8518,"2021-02-27","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.913835734880275
+"PM2.5",-34.0908,18.8518,"2021-02-28","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",11.0300198655523
+"PM2.5",-34.0908,18.8518,"2021-03-01","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.5800725232622
+"PM2.5",-34.0908,18.8518,"2021-03-02","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.60792295065799
+"PM2.5",-34.0908,18.8518,"2021-03-03","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.48560233706001
+"PM2.5",-34.0908,18.8518,"2021-03-04","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.85315917798676
+"PM2.5",-34.0908,18.8518,"2021-03-05","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.1634599685648
+"PM2.5",-34.0908,18.8518,"2021-03-06","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.50944769338415
+"PM2.5",-34.0908,18.8518,"2021-03-07","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.52622840941706
+"PM2.5",-34.0908,18.8518,"2021-03-08","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.32215105350163
+"PM2.5",-34.0908,18.8518,"2021-03-09","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.65731002081377
+"PM2.5",-34.0908,18.8518,"2021-03-11","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.83326213696903
+"PM2.5",-34.0908,18.8518,"2021-03-12","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.25907582308395
+"PM2.5",-34.0908,18.8518,"2021-03-13","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.77942849801866
+"PM2.5",-34.0908,18.8518,"2021-03-14","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.74344300973611
+"PM2.5",-34.0908,18.8518,"2021-03-15","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.51061966695788
+"PM2.5",-34.0908,18.8518,"2021-03-16","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.763656859601304
+"PM2.5",-34.0908,18.8518,"2021-03-17","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.92165522855178
+"PM2.5",-34.0908,18.8518,"2021-03-18","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.28287206453343
+"PM2.5",-34.0908,18.8518,"2021-03-19","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",0.885181183781096
+"PM2.5",-34.0908,18.8518,"2021-03-20","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.25517285647286
+"PM2.5",-34.0908,18.8518,"2021-03-21","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.0996752417442
+"PM2.5",-34.0908,18.8518,"2021-03-22","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.01337733346246
+"PM2.5",-34.0908,18.8518,"2021-03-23","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",1.60823294875206
+"PM2.5",-34.0908,18.8518,"2021-03-24","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.41902526911148
+"PM2.5",-34.0908,18.8518,"2021-03-25","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.97928068419448
+"PM2.5",-34.0908,18.8518,"2021-03-26","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.91422327131858
+"PM2.5",-34.0908,18.8518,"2021-03-27","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.66142015352762
+"PM2.5",-34.0908,18.8518,"2021-03-28","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.95684820288269
+"PM2.5",-34.0908,18.8518,"2021-03-29","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.1736850338359
+"PM2.5",-34.0908,18.8518,"2021-03-30","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.14585470969139
+"PM2.5",-34.0908,18.8518,"2021-03-31","Somerset West-PA","Cape Town","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.41188332421091
+"PM2.5",-33.9424,18.4634,"2021-01-20","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.92700398930571
+"PM2.5",-33.9424,18.4634,"2021-01-21","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.55008351633579
+"PM2.5",-33.9424,18.4634,"2021-01-22","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.47900564186771
+"PM2.5",-33.9424,18.4634,"2021-01-23","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.23353786573071
+"PM2.5",-33.9424,18.4634,"2021-01-24","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.41065827040853
+"PM2.5",-33.9424,18.4634,"2021-01-25","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.1032425892317
+"PM2.5",-33.9424,18.4634,"2021-01-26","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.11692949111546
+"PM2.5",-33.9424,18.4634,"2021-01-27","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.80463720480243
+"PM2.5",-33.9424,18.4634,"2021-01-28","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.21579105810503
+"PM2.5",-33.9424,18.4634,"2021-01-29","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.15104010025063
+"PM2.5",-33.9424,18.4634,"2021-01-30","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.79186928581565
+"PM2.5",-33.9424,18.4634,"2021-01-31","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.11747433718396
+"PM2.5",-33.9424,18.4634,"2021-02-01","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.54173494080028
+"PM2.5",-33.9424,18.4634,"2021-02-02","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.33653184685853
+"PM2.5",-33.9424,18.4634,"2021-02-03","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.74471091521908
+"PM2.5",-33.9424,18.4634,"2021-02-04","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.41678405149114
+"PM2.5",-33.9424,18.4634,"2021-02-05","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.25384830084459
+"PM2.5",-33.9424,18.4634,"2021-02-06","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.0542827562874
+"PM2.5",-33.9424,18.4634,"2021-02-07","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.91490376279524
+"PM2.5",-33.9424,18.4634,"2021-02-08","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.58130806132815
+"PM2.5",-33.9424,18.4634,"2021-02-09","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.72842005732241
+"PM2.5",-33.9424,18.4634,"2021-02-10","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.02304276485765
+"PM2.5",-33.9424,18.4634,"2021-02-11","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.52687302547557
+"PM2.5",-33.9424,18.4634,"2021-02-12","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.16916212946158
+"PM2.5",-33.9424,18.4634,"2021-02-13","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.72453977898269
+"PM2.5",-33.9424,18.4634,"2021-02-14","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.23481802392522
+"PM2.5",-33.9424,18.4634,"2021-02-15","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.12893331152625
+"PM2.5",-33.9424,18.4634,"2021-02-16","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.29260258234264
+"PM2.5",-33.9424,18.4634,"2021-02-17","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.62454815508677
+"PM2.5",-33.9424,18.4634,"2021-02-18","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.16259482286237
+"PM2.5",-33.9424,18.4634,"2021-02-19","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.28942998415129
+"PM2.5",-33.9424,18.4634,"2021-02-20","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.48353210612739
+"PM2.5",-33.9424,18.4634,"2021-02-21","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.76480179778474
+"PM2.5",-33.9424,18.4634,"2021-02-22","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.43287653903711
+"PM2.5",-33.9424,18.4634,"2021-02-23","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.36980842911877
+"PM2.5",-33.9424,18.4634,"2021-02-24","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.07279903606895
+"PM2.5",-33.9424,18.4634,"2021-02-25","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.04237295262143
+"PM2.5",-33.9424,18.4634,"2021-02-26","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.77637153227897
+"PM2.5",-33.9424,18.4634,"2021-02-27","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.05495721952981
+"PM2.5",-33.9424,18.4634,"2021-02-28","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.66857791029297
+"PM2.5",-33.9424,18.4634,"2021-03-01","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.11520722328564
+"PM2.5",-33.9424,18.4634,"2021-03-02","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.07848469907454
+"PM2.5",-33.9424,18.4634,"2021-03-03","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.37937933915248
+"PM2.5",-33.9424,18.4634,"2021-03-04","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.81625812725174
+"PM2.5",-33.9424,18.4634,"2021-03-05","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.87957940829084
+"PM2.5",-33.9424,18.4634,"2021-03-06","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.26115141966321
+"PM2.5",-33.9424,18.4634,"2021-03-07","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.9687538310161
+"PM2.5",-33.9424,18.4634,"2021-03-08","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.22124492265146
+"PM2.5",-33.9424,18.4634,"2021-03-09","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.05176697217395
+"PM2.5",-33.9424,18.4634,"2021-03-10","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.65
+"PM2.5",-33.9424,18.4634,"2021-03-11","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.79159733625251
+"PM2.5",-33.9424,18.4634,"2021-03-12","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.66830434175625
+"PM2.5",-33.9424,18.4634,"2021-03-13","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",3.53125505334217
+"PM2.5",-33.9424,18.4634,"2021-03-14","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.00856260552214
+"PM2.5",-33.9424,18.4634,"2021-03-15","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.29381282339234
+"PM2.5",-33.9424,18.4634,"2021-03-16","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.13464271753655
+"PM2.5",-33.9424,18.4634,"2021-03-17","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.63147408751764
+"PM2.5",-33.9424,18.4634,"2021-03-18","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.07966605562449
+"PM2.5",-33.9424,18.4634,"2021-03-19","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.37188781340324
+"PM2.5",-33.9424,18.4634,"2021-03-20","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.17540498004352
+"PM2.5",-33.9424,18.4634,"2021-03-21","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.45326484058039
+"PM2.5",-33.9424,18.4634,"2021-03-22","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",1.31209446028865
+"PM2.5",-33.9424,18.4634,"2021-03-23","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.88604385785715
+"PM2.5",-33.9424,18.4634,"2021-03-24","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.25422262552934
+"PM2.5",-33.9424,18.4634,"2021-03-25","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.8925979029442
+"PM2.5",-33.9424,18.4634,"2021-03-26","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.9760967212858
+"PM2.5",-33.9424,18.4634,"2021-03-27","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.27520655085991
+"PM2.5",-33.9424,18.4634,"2021-03-28","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",2.13178042851818
+"PM2.5",-33.9424,18.4634,"2021-03-29","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",5.17413423903047
+"PM2.5",-33.9424,18.4634,"2021-03-30","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",6.28017924120646
+"PM2.5",-33.9424,18.4634,"2021-03-31","Hospital Bend Cape Town","Cape Town","PurpleAir","Traffic/Hospital","2021-01-19 ~ 2021-03-31","ug/m3",4.81815676993035
+"PM2.5",-25.8292,28.2034,"2021-01-13","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",22.325
+"PM2.5",-25.8292,28.2034,"2021-01-14","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.1214432633307
+"PM2.5",-25.8292,28.2034,"2021-01-15","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.4953962492438
+"PM2.5",-25.8292,28.2034,"2021-01-16","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.7215569095152
+"PM2.5",-25.8292,28.2034,"2021-01-17","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.1959368248207
+"PM2.5",-25.8292,28.2034,"2021-01-18","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.4828466760772
+"PM2.5",-25.8292,28.2034,"2021-01-19","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",11.9768583638584
+"PM2.5",-25.8292,28.2034,"2021-01-20","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.8220853563322
+"PM2.5",-25.8292,28.2034,"2021-01-21","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",16.8354338912415
+"PM2.5",-25.8292,28.2034,"2021-01-22","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.67096577651024
+"PM2.5",-25.8292,28.2034,"2021-01-23","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.04279042729134
+"PM2.5",-25.8292,28.2034,"2021-01-24","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",2.64286237624713
+"PM2.5",-25.8292,28.2034,"2021-01-25","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.10926751745264
+"PM2.5",-25.8292,28.2034,"2021-01-26","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.31697768334218
+"PM2.5",-25.8292,28.2034,"2021-01-27","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",5.71661573115559
+"PM2.5",-25.8292,28.2034,"2021-01-28","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",12.9519116757411
+"PM2.5",-25.8292,28.2034,"2021-01-29","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.51294067396609
+"PM2.5",-25.8292,28.2034,"2021-01-30","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",4.23397119341564
+"PM2.5",-25.8292,28.2034,"2021-01-31","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",14.407743832762
+"PM2.5",-25.8292,28.2034,"2021-02-01","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.15953950009122
+"PM2.5",-25.8292,28.2034,"2021-02-02","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",3.60489730072307
+"PM2.5",-25.8292,28.2034,"2021-02-03","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",2.81765353037767
+"PM2.5",-25.8292,28.2034,"2021-02-04","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.89335057471264
+"PM2.5",-25.8292,28.2034,"2021-02-05","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.34673095204856
+"PM2.5",-25.8292,28.2034,"2021-02-06","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.29281034482759
+"PM2.5",-25.8292,28.2034,"2021-02-07","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.87383990147783
+"PM2.5",-25.8292,28.2034,"2021-02-08","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",6.01141160372195
+"PM2.5",-25.8292,28.2034,"2021-02-09","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.94436892268152
+"PM2.5",-25.8292,28.2034,"2021-02-10","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.8861495213129
+"PM2.5",-25.8292,28.2034,"2021-02-11","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",13.098976481692
+"PM2.5",-25.8292,28.2034,"2021-02-12","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.29489771237702
+"PM2.5",-25.8292,28.2034,"2021-02-13","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.4826851122058
+"PM2.5",-25.8292,28.2034,"2021-02-14","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.19201964330994
+"PM2.5",-25.8292,28.2034,"2021-02-15","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",9.69176213282248
+"PM2.5",-25.8292,28.2034,"2021-02-16","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",21.5607327586207
+"PM2.5",-25.8292,28.2034,"2021-02-17","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.75500957965204
+"PM2.5",-25.8292,28.2034,"2021-02-18","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",21.0251042438102
+"PM2.5",-25.8292,28.2034,"2021-02-19","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",16.8863972190492
+"PM2.5",-25.8292,28.2034,"2021-02-25","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",29.0921132373374
+"PM2.5",-25.8292,28.2034,"2021-02-26","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.056830376405
+"PM2.5",-25.8292,28.2034,"2021-02-27","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",12.5431559881689
+"PM2.5",-25.8292,28.2034,"2021-02-28","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",5.10239773763912
+"PM2.5",-25.8292,28.2034,"2021-03-01","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",5.76047475602461
+"PM2.5",-25.8292,28.2034,"2021-03-02","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.9842433406313
+"PM2.5",-25.8292,28.2034,"2021-03-03","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",26.9889987719672
+"PM2.5",-25.8292,28.2034,"2021-03-04","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",28.7717512315271
+"PM2.5",-25.8292,28.2034,"2021-03-05","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",26.3024312554779
+"PM2.5",-25.8292,28.2034,"2021-03-06","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",28.2176789819376
+"PM2.5",-25.8292,28.2034,"2021-03-07","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.4710341399617
+"PM2.5",-25.8292,28.2034,"2021-03-08","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",15.6976751636392
+"PM2.5",-25.8292,28.2034,"2021-03-09","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.8475494253515
+"PM2.5",-25.8292,28.2034,"2021-03-10","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",12.0583333333333
+"PM2.5",-25.8292,28.2034,"2021-03-11","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",16.1974451088128
+"PM2.5",-25.8292,28.2034,"2021-03-12","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",23.9863838893706
+"PM2.5",-25.8292,28.2034,"2021-03-13","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.9061196093683
+"PM2.5",-25.8292,28.2034,"2021-03-14","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",3.83355125615297
+"PM2.5",-25.8292,28.2034,"2021-03-15","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",7.90037826944281
+"PM2.5",-25.8292,28.2034,"2021-03-16","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",29.0379465291774
+"PM2.5",-25.8292,28.2034,"2021-03-17","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.3563304275181
+"PM2.5",-25.8292,28.2034,"2021-03-18","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",17.0127288073325
+"PM2.5",-25.8292,28.2034,"2021-03-19","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",18.4582549932388
+"PM2.5",-25.8292,28.2034,"2021-03-20","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",24.6830488193957
+"PM2.5",-25.8292,28.2034,"2021-03-21","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",25.8157056808134
+"PM2.5",-25.8292,28.2034,"2021-03-22","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",31.6065533285252
+"PM2.5",-25.8292,28.2034,"2021-03-23","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",26.4817779391745
+"PM2.5",-25.8292,28.2034,"2021-03-24","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",25.2517280990157
+"PM2.5",-25.8292,28.2034,"2021-03-25","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",22.9574204476709
+"PM2.5",-25.8292,28.2034,"2021-03-26","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",13.744908511069
+"PM2.5",-25.8292,28.2034,"2021-03-27","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",20.3295003185221
+"PM2.5",-25.8292,28.2034,"2021-03-28","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",8.77649393358876
+"PM2.5",-25.8292,28.2034,"2021-03-29","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",5.38697661852834
+"PM2.5",-25.8292,28.2034,"2021-03-30","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",19.1453530377668
+"PM2.5",-25.8292,28.2034,"2021-03-31","Pretoria - Centurion","Tshwane","PurpleAir",NA,"2021-01-13 ~ 2021-03-31","ug/m3",29.9831954022989
+"PM2.5",-25.776,28.2107,"2021-01-20","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",21.2350840638289
+"PM2.5",-25.776,28.2107,"2021-01-21","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",18.5376839220805
+"PM2.5",-25.776,28.2107,"2021-01-22","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.87228784146888
+"PM2.5",-25.776,28.2107,"2021-01-23","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.141054589727
+"PM2.5",-25.776,28.2107,"2021-01-24","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.10583470839505
+"PM2.5",-25.776,28.2107,"2021-01-25","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",4.36493931356
+"PM2.5",-25.776,28.2107,"2021-01-26","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.83212598358744
+"PM2.5",-25.776,28.2107,"2021-01-27","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",5.27225310932454
+"PM2.5",-25.776,28.2107,"2021-01-28","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",13.5347936259143
+"PM2.5",-25.776,28.2107,"2021-01-29","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.7998881418709
+"PM2.5",-25.776,28.2107,"2021-01-30","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.71386898797243
+"PM2.5",-25.776,28.2107,"2021-01-31","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",15.0171212121212
+"PM2.5",-25.776,28.2107,"2021-02-01","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.62850014927601
+"PM2.5",-25.776,28.2107,"2021-02-02","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.43673782156541
+"PM2.5",-25.776,28.2107,"2021-02-03","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",2.35716707302914
+"PM2.5",-25.776,28.2107,"2021-02-04","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.71578088341437
+"PM2.5",-25.776,28.2107,"2021-02-05","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.66291057091057
+"PM2.5",-25.776,28.2107,"2021-02-06","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.95175847141364
+"PM2.5",-25.776,28.2107,"2021-02-07","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.82550679205852
+"PM2.5",-25.776,28.2107,"2021-02-08","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.31532263260031
+"PM2.5",-25.776,28.2107,"2021-02-09","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.74954158693971
+"PM2.5",-25.776,28.2107,"2021-02-10","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",18.297498161274
+"PM2.5",-25.776,28.2107,"2021-02-11","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.2151153846154
+"PM2.5",-25.776,28.2107,"2021-02-12","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",10.084388844013
+"PM2.5",-25.776,28.2107,"2021-02-13","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.70190825838768
+"PM2.5",-25.776,28.2107,"2021-02-14","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.80542213677642
+"PM2.5",-25.776,28.2107,"2021-02-15","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.67526071055381
+"PM2.5",-25.776,28.2107,"2021-02-16","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",15.2470923584717
+"PM2.5",-25.776,28.2107,"2021-02-17","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",7.14276753897443
+"PM2.5",-25.776,28.2107,"2021-02-18","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",22.4722730627668
+"PM2.5",-25.776,28.2107,"2021-02-19","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.7303142938566
+"PM2.5",-25.776,28.2107,"2021-02-20","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",11.9913427295896
+"PM2.5",-25.776,28.2107,"2021-02-21","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",16.7567818579888
+"PM2.5",-25.776,28.2107,"2021-02-22","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",17.660081438353
+"PM2.5",-25.776,28.2107,"2021-02-23","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",9.84061280764483
+"PM2.5",-25.776,28.2107,"2021-02-24","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",22.773370868711
+"PM2.5",-25.776,28.2107,"2021-02-25","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",31.027386891586
+"PM2.5",-25.776,28.2107,"2021-02-26","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",18.8335307824367
+"PM2.5",-25.776,28.2107,"2021-03-02","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.7786062648239
+"PM2.5",-25.776,28.2107,"2021-03-03","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",23.3290213480506
+"PM2.5",-25.776,28.2107,"2021-03-04","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",28.2483343699723
+"PM2.5",-25.776,28.2107,"2021-03-05","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",22.3955726393657
+"PM2.5",-25.776,28.2107,"2021-03-06","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",26.3099416579589
+"PM2.5",-25.776,28.2107,"2021-03-07","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",15.5795938758211
+"PM2.5",-25.776,28.2107,"2021-03-08","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",14.1182348938889
+"PM2.5",-25.776,28.2107,"2021-03-09","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",18.6355266124587
+"PM2.5",-25.776,28.2107,"2021-03-10","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",14.9432380952381
+"PM2.5",-25.776,28.2107,"2021-03-11","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",12.2901958418338
+"PM2.5",-25.776,28.2107,"2021-03-12","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",25.705041362584
+"PM2.5",-25.776,28.2107,"2021-03-13","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",22.378835978836
+"PM2.5",-25.776,28.2107,"2021-03-14","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",3.4271646909721
+"PM2.5",-25.776,28.2107,"2021-03-15","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",8.31589893581786
+"PM2.5",-25.776,28.2107,"2021-03-16","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",28.6549151669763
+"PM2.5",-25.776,28.2107,"2021-03-17","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",18.539754186397
+"PM2.5",-25.776,28.2107,"2021-03-18","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",16.887102345292
+"PM2.5",-25.776,28.2107,"2021-03-19","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",21.4973863996459
+"PM2.5",-25.776,28.2107,"2021-03-20","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",26.2690986230451
+"PM2.5",-25.776,28.2107,"2021-03-21","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",22.3069853709509
+"PM2.5",-25.776,28.2107,"2021-03-22","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",30.8073598895205
+"PM2.5",-25.776,28.2107,"2021-03-23","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",35.5571236171236
+"PM2.5",-25.776,28.2107,"2021-03-24","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",26.0377684120903
+"PM2.5",-25.776,28.2107,"2021-03-25","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",32.2607563566702
+"PM2.5",-25.776,28.2107,"2021-03-28","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",29.9191666666667
+"PM2.5",-25.776,28.2107,"2021-03-29","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",6.79039494009609
+"PM2.5",-25.776,28.2107,"2021-03-31","Geringer","Tshwane","PurpleAir",NA,"2021-01-19 ~ 2021-03-31","ug/m3",29.1981339565607

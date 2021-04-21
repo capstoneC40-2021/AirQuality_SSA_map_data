@@ -1,0 +1,103 @@
+---
+title: "Resources"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(labelled)
+```
+
+Column {style="height:70pc;"}
+-----------------------------------------------------------------------
+
+### Air Quality Data Sources
+
+* Abidjan
+  - OpenAQ: https://openaq.org/#/countries/CI
+* Accra
+  - OpenAQ: https://openaq.org/#/countries/GH	
+* Addis Ababa	
+  - openAQ: https://openaq.org/#/countries/ET
+  - US EPA AirNow: https://www.airnow.gov/international/us-embassies-and-consulates/
+* Cape Town	
+  - SAAQIS: https://saaqis.environment.gov.za/ 
+  - openAQ: https://openaq.org/#/countries/ZA
+* Dakar 
+  - Purple Air: https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#8.16/14.724/-16.997
+* Dar es Salaam
+  - sensor.Africa: https://sensors.africa/air/data
+* eThekwini (Durban)
+  - SAAQIS: https://saaqis.environment.gov.za/ 
+  - openAfrica: https://africaopendata.org/dataset/sensorsafrica-airquality-archive-durban 
+  - sensors.Africa: https://sensors.africa/ 
+* Ekurhuleni
+  - SAAQIS	: https://saaqis.environment.gov.za/	
+* Freetown	
+  - openAQ: https://openaq.org/#/map
+* Johannesburg	
+  - SAAQIS: https://saaqis.environment.gov.za/ 
+* Lagos	
+  - openAQ: https://openaq.org/#/countries/NG
+* Nairobi	
+  - sensor.Africa: https://sensors.africa/air/data
+* Tshwane (Pretoria)
+  - SAAQIS: https://saaqis.environment.gov.za/ 
+  - openAQ: https://openaq.org/#/countries/ZA 
+
+
+Column {style="height:70pc;"}
+-----------------------------------------------------------------------
+### AQMP document / relevant resources
+
+* Abidjan
+  - National Action Planning for the Reduction of Short Lived Climate Pollutant - Cote d’Ivoire (2020): https://www.ccacoalition.org/en/file/6701/download?token=Nd5E3BB0	
+* Accra
+  - Greater Accra Metropolitan Areas Air Quality Management Plan(2018): http://www.epa.gov.gh/epa/sites/default/files/downloads/publications/Greater%20Accra%20Region%20Air%20%20Quality%20Management%20Plan%202%20Oct%20%202018%20updated.pdf	
+* Addis Ababa	
+  - Addis Ababa City Air Quality Policy and Regulatory Situational Analysis (2018):
+https://www.eci-africa.org/wp-content/uploads/2019/05/Addis-Air-Quality-Policy-and-Regulatory-Situational-Analysis_Final_ECI_31.12.2018rev.pdf
+* Cape Town	
+  - AQMP for the City of Cape Town (2005): https://resource.capetown.gov.za/documentcentre/Documents/Bylaws%20and%20policies/Air%20quality%20management%20plan%20for%20the%20City%20of%20Cape%20Town%20Policy%20-%20approved%20on%2028%20September%202005.pdf 
+
+  - Air Quality Management By-law, 2016: https://openbylaws.org.za/za-cpt/act/by-law/2016/air-quality-management/eng/ 
+* Dakar
+  - Air Quality Management Plan, 2007:
+https://www.nilu.no/dnn/18-2007-cbg-bs-qadak-AQ_Man/?ext=pdf
+ 
+  - Project for Urban Master Plan of Dakar and Neighboring Area for 2035:
+		http://open_jicareport.jica.go.jp/pdf/12250007_01.pdf
+* Dar es Salaam	
+  - Tanzania Environmental Management (Air Quality Standards) Regulations, 2007:
+https://www.ecolex.org/details/legislation/environmental-management-air-quality-standards-regulations-2007-lex-faoc151537/
+* eThekwini (Durban)
+  - AQMP for eThekwini Municipality (2007): http://noframe.data.dirisa.org/sarva/themefolder/emissions/resources/air-quality-management-plans-aqmps/ 
+  - Air Quality Management By-law, 2020: https://openbylaws.org.za/za-eth/act/by-law/2020/air-quality-management/eng/ 
+* Ekurhuleni
+  - Ekurhuleni Metropolitan Municipality AQMP (2005): https://www.ekurhuleni.gov.za/council/reports/environmental-reports/465-air-quality-management-plan-2005/file.html	
+ 
+  - Highveld Priority Area AQMP (2011):
+https://screening.environment.gov.za/ScreeningDownloads/DevelopmentZones/HIGHVELD_PRIORITY_AREA_AQMP.pdf	
+* Freetown
+  - Environment Protection Agency Sierra Leone (2016):
+https://epa.gov.sl/?p=558
+* Johannesburg	
+  - AQMP City of Johannesburg 2017 (Final Draft): https://www.joburg.org.za/documents_/Documents/By-Laws/Draft%20CoJ%20AQMP%202017.pdf 
+  - Air Pollution Control By-law, 2011: https://openbylaws.org.za/za-jhb/act/by-law/2011/air-pollution-control/eng/ 
+* Lagos	
+  - Sodipo, E., Omofuma, O., and Nwachi V.C. (2017). Environmental law and practice in Nigeria: overview: https://uk.practicallaw.thomsonreuters.com/w-006-3572?transitionType=Default&contextData=(sc.Default)&firstPage=true
+  - Croitoru, L., Chang, J.C., and Kelly, A. (2020): The Cost Of Air Pollution In Lagos.http://documents1.worldbank.org/curated/en/980031575616020127/pdf/The-Cost-of-Air-Pollution-in-Lagos.pdf
+* Nairobi	
+  - Nairobi Air Quality Action Plan (2019-2023): https://www.eci-africa.org/wp-content/uploads/2019/05/Nairobi-Air-Quality-Action-Plan_Final_ECI_31.12.2018.pdf
+* Tshwane
+  - AQMP for the City of Tshwane Metropolitan Municipality (2006-2008):  https://saaqis.environment.gov.za/documents/AQPlanning/CITY%20OF%20TSHWANE%20AQMP.pdf 
+  - Air Quality Management By-law, 2020: http://www.tshwane.gov.za/sites/Council/Council%20Resolutions/Council%20Resolutions%202011/55.%20Council%2025%20August%202011/04.%20Air%20quality%20management%20Establishment%20of%20air%20quality%20By%20laws%20in%20the%20City%20of%20Tshwane%2025%2008%202011.pdf 
+
+

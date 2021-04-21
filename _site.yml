@@ -1,0 +1,14 @@
+name: "C40 Capstone"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Map"
+      href: https://capstone2021.shinyapps.io/AQmap/
+    - text: "Resources"
+      href: https://capstone2021.shinyapps.io/resources/
+    - text: "Github"
+      href: https://github.com/capstoneC40-2021/
+output:
+  html_document:
+    theme: yeti
